@@ -4,18 +4,18 @@ This repository contains code for the reanalysis of publicly available scRNA-seq
 #
 
 ### Input data
-The scRNA-seq dataset is publicly available from GEO:`GSM4635075`
+The scRNA-seq dataset is publicly available from GEO: `GSM4635075`
 
 Set the input file path in `1_scRNAseq_preprocessing_and_RGC_extraction.py`.
 
 
-### Gene set used for the cell cycle trajectory analysis
-The 883-gene set used in the analysis reported in the paper is provided in this repository as:
-`GO_union_genes_expressed_in_cluster3_RGC_pct05_gene_symbols_only_2026-04-24.csv`
+### Gene set used for the cell-cycle trajectory analysis
+The 883-gene set used in the analysis reported in the paper is provided in this repository as: `GO_union_genes_expressed_in_cluster3_RGC_pct05_gene_symbols_only_2026-04-24.csv`
 
-Because QuickGO is continuously updated, rerunning the GO retrieval may produce a slightly different gene set.
+Because Gene Ontology annotations are updated over time, rerunning the QuickGO retrieval may produce a slightly different gene set.
 
 
 ### Environment
-Python environment information is provided in:
-`environment_scenv.yml`
+Python environment information is provided in: `environment_scenv.yml`
+
+R environment information for the cell-cycle trajectory analysis is provided in: `RGC_GO_pct05_sessionInfo.txt`
