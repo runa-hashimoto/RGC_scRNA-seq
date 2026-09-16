@@ -4,9 +4,7 @@ This repository contains code for the reanalysis of publicly available scRNA-seq
 #
 
 ### Input data
-The scRNA-seq dataset is publicly available from GEO: `GSM4635075`
-
-Set the input file path in `1_scRNAseq_preprocessing_and_RGC_extraction.py`.
+The scRNA-seq data analyzed here were originally generated in a previous study and deposited in the Gene Expression Omnibus (GEO) under accession `GSM4635075`.
 
 
 ### Gene set used for the cell-cycle trajectory analysis
