@@ -239,10 +239,8 @@ marker_dict = {
     "RGC": ["Pax6", "Sox2", "Vim", "Hes1", "Hes5", "Fabp7", "Slc1a3", "Nes"],
     "IP": ["Eomes", "Neurod1", "Neurod4", "Insm1", "Btg2"],
     "Proliferating": ["Mki67", "Top2a", "Cenpf", "Ube2c"],
-    "EN": [
-        "Neurod2", "Tbr1", "Satb2", "Dcx", "Tubb3", "Rbfox3",
-        "Bcl11b", "Cux1", "Cux2", "Neurod1", "Rnd2", "Neurod6",
-    ],
+    "EN": ["Neurod2", "Tbr1", "Satb2", "Dcx", "Tubb3", "Rbfox3",
+        "Bcl11b", "Cux1", "Cux2", "Rnd2", "Neurod6"],
     "IN": ["Gad1", "Gad2", "Dlx1", "Dlx2", "Lhx6", "Arx", "Maf", "Mafb"],
     "CR": ["Reln", "Calb2", "Cxcl12"],
     "E/V": ["Pecam1", "Rgs5", "Pdgfrb"],
